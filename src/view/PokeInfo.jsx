@@ -4,7 +4,7 @@ import TypeColor from "../components/TypeColors";
 import '../stylesheets/pokeInfo.css'
 
 const PokeInfo = () => {
-    const [pokemons, setPokemons] = useState({});
+    const [pokemons, setPokemons] = useState([]);
     const { pokeSelect } = useParams();
 
     const imgPokeballUrl = 'https://cdn-icons-png.flaticon.com/512/287/287221.png';
